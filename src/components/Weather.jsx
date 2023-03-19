@@ -11,8 +11,6 @@ const Weather = (props) => (
                 <p>Заход солнца: {props.sunset}</p>
             </div>
         }
-
-        <p>{props.error}</p>
     </div>
 );
 
